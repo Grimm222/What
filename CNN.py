@@ -13,7 +13,6 @@ train_data_path = "Q:\\train"
 val_data_path = "Q:\\val"
 test_data_path = "Q:\\test"
 
-
 class Dataset(object):
 	def __getitem__(self, index):
 		raise NotImplementedError
@@ -146,9 +145,7 @@ print(labels[prediction])
 
 '''
 ##########################################
-img1 = Image.open('D:\\Krug.jpg')			 
-img1 = transforms(img1)
-img1 = img1.unsqueeze(0)
+
 
 img2 = Image.open('D:\\Treugolnik.jpg')			 
 img2 = transforms(img2)
